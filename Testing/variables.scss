@@ -1,0 +1,32 @@
+
+//Define Normal Variables
+$Testvariable1: 50px;
+$Testvariable2: 50px;
+$Testvariable3: 50px;
+$Testvariable4: 50px;
+$Testvariable5: 50px;
+$Testvariable6: 50px;
+
+/*
+Variables for @import you need to paste in the ExportToJs.
+You need to have the tructure like this:
+
+ExportToJs { Indefier !Dont change
+  varVARIABLENAME: $VARIABLE; first start with var and after that past the name without the $ after the ":" paste the variable.
+}
+
+//Example
+*/
+
+ExportToJs {
+  varTestvariable1: $Testvariable1;
+  varTestvariable2: $Testvariable2;
+  varTestvariable3: $Testvariable3;
+  varTestvariable4: $Testvariable4;
+  varTestvariable5: $Testvariable5;
+  varTestvariable6: $Testvariable6;
+}
+
+.asd {
+  margin-left: 10px;
+}
